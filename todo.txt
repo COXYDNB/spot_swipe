@@ -1,0 +1,30 @@
+use ML to train model to detect drops, could use labeled drop points from my rekordbox...
+
+For even better detection:
+
+Analyze low-frequency energy increase.
+
+Use librosa.feature.rms() (volume) + spectral_centroid (brightness).
+
+Use a machine learning model trained on labeled drop points (big project, but possible).
+
+
+## TABLES ##
+
+Users
+
+Playlists
+
+Tracks
+
+Albums
+
+Artists
+
+## RELATIONSHIP TABLES ##
+
+Playlist_Tracks
+
+Track_Artists
+
+Album_Artists
